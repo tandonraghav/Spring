@@ -19,7 +19,7 @@ public class TestRestController {
 	
 	@Autowired @Qualifier("businessLayerImpl") BusinessLayer businessLayer;
 	@Autowired @Qualifier("businessLayerImpl2") BusinessLayer businessLayer2;
-	@Autowired Arushi arushi;
+	//@Autowired Arushi arushi;
 	
 	@RequestMapping(value = "/create", method = RequestMethod.POST,consumes={MediaType.APPLICATION_JSON})
 	@ResponseStatus(value=HttpStatus.CREATED)
