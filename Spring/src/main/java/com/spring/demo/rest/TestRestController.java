@@ -13,6 +13,6 @@ public class TestRestController {
 	@RequestMapping(value = "/create", method = RequestMethod.POST)
 	@ResponseStatus(value=HttpStatus.CREATED)
 	public String create(){
-		return "Spring is Woring !!!";
+		return "Spring is Working !!!";
 	}
 }
